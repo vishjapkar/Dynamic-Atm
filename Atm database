@@ -1,0 +1,19 @@
+create database autt;
+use autt;
+create table Sir(id int, name varchar(20));
+insert into Sir values(25, "vishal");
+insert into Sir values(35,"vikas");
+use autt;
+insert into Sir values(45,"Akshay");
+
+
+select  id  from Sir where id=45;
+use atm;
+create table user(id int,password int ,name text,account_balance int);
+insert into user values(1,12,'b',92);
+drop table user;
+create table user(id int auto_increment primary key,password int,name text,account_balance int);
+insert into user values(2,13,'vishal',10000);
+use atm;
+insert into user values(4,14,'vikas',1233325);
+select * from user;
